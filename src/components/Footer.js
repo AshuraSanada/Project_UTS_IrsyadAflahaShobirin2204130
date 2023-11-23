@@ -15,36 +15,24 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              IRSYAD AFLAHA SHOBIRIN
+              UPI.EDU
               <i class='' />
             </Link>
           </div>
           <small class='website-rights'>ASH © 2023</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='https://www.facebook.com/profile.php?id=100009902855566/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='https://www.instagram.com/ash_brine//'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='https://www.youtube.com/channel/UCw4dGzz-LP5OucU0k6nwKXQ/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
+          <a href='https://www.facebook.com/profile.php?id=100009902855566/'
+               class='social-icon-link facebook'>
+                <i class='fab fa-facebook' />
+               </a>
+            <a href='https://www.instagram.com/ash_brine//'
+               class='social-icon-link instagram'>
+                <i class='fab fa-instagram' />
+               </a>
+            <a href='https://www.youtube.com/channel/UCw4dGzz-LP5OucU0k6nwKXQ/'
+               class='social-icon-link youtube'>
+                <i class='fab fa-youtube' />
+               </a>
           </div>
         </div>
       </section>
