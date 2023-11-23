@@ -7,7 +7,9 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>IRSYAD AFLAHA SHOBIRIN</h1>
-      <p>Mahasiswa Universitas Pendidikan Indonesia Program Studi Ilmu Komputer Angkatan 2022</p>
+      <p>Mahasiswa Universitas Pendidikan Indonesia <br />
+         Program Studi Ilmu Komputer<br /> 
+         Angkatan 2022</p>
     </div>
   );
 }
